@@ -1,0 +1,8 @@
+Compile .cpp file, requires C++11:
+
+g++ -std=c++11 buddy_adder.cpp -o adder -lbdd
+
+buddy_adder.cpp : C++ file to define Boolean formulae to be computed, contains template and explanation to realize custom Boolean formulae
+
+robdd_to_xbar.py : Python file to map ROBDD to crossbar matrix
+
